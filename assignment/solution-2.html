@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solution 2</title>
+  </head>
+  <body>
+    <pre>
+        Why do we get a `package-lock.json` file whenever we install a package in Node.js? 🤔
+
+Package versions toh already `package.json` me hote hai na?
+
+Toh ye file itni important kyun hai? 😳
+
+Most of the time `package.json` me exact version nahi hota.
+
+Aapne aise versions dekhe honge:
+
+```json
+"react": "^19.0.0"
+```
+
+Ye package manager ko bolta hai ki package ka provided range me se compatible latest version install kar do.
+
+Ab imagine karo...
+
+Aapne project banaya aur React `19.0.1` install hua.
+
+Aapne code GitHub par push kar diya 🚀
+
+Ab aapka friend same project clone karta hai aur install command run karta hai.
+
+Lekin uski machine par React `19.1.0` install ho sakta hai 😳
+
+Aur phir aata hai developer ka favourite dialogue:
+
+"This works on my machine." 🤯
+
+Isi problem ko solve karta hai `package-lock.json` ⚡
+
+Ye exact installed package versions aur unki dependencies ke versions ko record karke rakhta hai.
+
+Taaki jab bhi koi developer ya production server install command run kare, wahi exact versions install ho ✅
+
+Aur sabki machine par project same tarah work kare.
+
+Isi liye `package-lock.json` ko Git me commit kiya jata hai aur generally delete nahi kiya jata 🚀
+++
+    </pre>
+    <p>Header, about, contact</p>
+
+    <p>About</p>
+    <pre>
+        Header
+        Heading
+        Paragraph
+    </pre>
+
+    <p>Contact</p>
+    <pre>
+        Header
+        Heading
+        Form
+        
+    </pre>
+
+    <img src="/assets/img-demo.jpg" height="200" alt="market" />
+    <h1>Ayaan Shaikh</h1>
+    <p>
+      Hi my name is Ayaan. I am a Software Engineer and I like to teach
+      programming 😄
+    </p>
+
+    <h2>Song List</h2>
+    <ol>
+      <li>
+        <audio src="/assets/audio-demo.mp3" controls></audio>
+      </li>
+
+      <li>
+        <audio src="/assets/audio-demo.mp3" controls></audio>
+      </li>
+    </ol>
+
+    <h2>My hobbies</h2>
+    <ul>
+      <li>Programming</li>
+      <li>Swimming</li>
+      <li>Start Gazing</li>
+    </ul>
+
+    <hr />
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Color</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>Green</td>
+        </tr>
+
+        <tr>
+          <td>Sam</td>
+          <td>Blue</td>
+        </tr>
+
+        <tr>
+          <td>Ali</td>
+          <td>Red</td>
+        </tr>
+
+        <tr>
+          <td>Rahul</td>
+          <td>Yellow</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr />
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/IAAnnbcqWbY?si=VmHxN4xmIhPhJBsH"
+      title="YouTube video player"
+      frameborder="0"
+      allow="
+        accelerometer;
+        autoplay;
+        clipboard-write;
+        encrypted-media;
+        gyroscope;
+        picture-in-picture;
+        web-share;
+      "
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+  </body>
+</html>
